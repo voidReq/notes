@@ -1,7 +1,7 @@
-Usage: nmap [Scan Type(s)] [Options] {target specification}
-TARGET SPECIFICATION:
-  Can pass hostnames, IP addresses, networks, etc.
-  Ex: scanme.nmap.org, microsoft.com/24, 192.168.0.1; 10.0.0-255.1-254
+Usage: nmap [Scan Type(s)] [Options] {target specification}  
+TARGET SPECIFICATION:  
+  Can pass hostnames, IP addresses, networks, etc.  
+  Ex: scanme.nmap.org, microsoft.com/24, 192.168.0.1; 10.0.0-255.1-254  
   -iL : Input from list of hosts/networks
   -iR : Choose random targets
   --exclude : Exclude hosts/networks
