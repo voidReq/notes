@@ -8,7 +8,6 @@
 [[C Common Funcs]]
 [[C Funcs]]
 [[C Operators]]
-[[Java examples]]
 [[Java basics]]
 [[Bash Scripting]]
 [[Bash]]
