@@ -1,6 +1,0 @@
-- Stakeholders:
-	- Anyone affected by the software in any way
-- Identify stakeholder values
-- Create a stakeholder-value matrix
-	- Columns are values, rows are stakeholders, write each value
-- Identify/analyze conflicts in matrix
