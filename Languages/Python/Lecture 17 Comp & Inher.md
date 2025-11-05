@@ -1,0 +1,4 @@
+- Composition
+	- Contains objects of other classes, putting everything together
+- Inheritance
+	- Subclasses and superclasses, where subclasses contain new thingies
