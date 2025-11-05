@@ -1,0 +1,179 @@
+{
+  "main": {
+    "id": "c57ffa85c242f5fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f9915bfe8e8b223",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc2dd0e04e760d08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Security/Methods/Cross-Site Request Forgery.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Cross-Site Request Forgery"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bc3f8eb48c8e2671",
+    "type": "split",
+    "children": [
+      {
+        "id": "aeffc70005df2467",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "188eff7d63ab3936",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fa46cd7a2894e925",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "993bb1c8ede7dfce",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fd1a3b6deab23c4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "bd6a7fac92077775",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bd758555f279f1f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Security/Methods/Cross-Site Request Forgery.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Cross-Site Request Forgery"
+            }
+          },
+          {
+            "id": "e844a30db6c9bd70",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Security/Methods/Cross-Site Request Forgery.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Cross-Site Request Forgery"
+            }
+          },
+          {
+            "id": "a39b2f647ffcae93",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "859fc0f43dddf4d5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Security/Methods/Cross-Site Request Forgery.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Cross-Site Request Forgery"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "fc2dd0e04e760d08",
+  "lastOpenFiles": [
+    "Languages/C/C Bitwise Operators.md",
+    "Security/Methods/Cross-Site Request Forgery.md",
+    "Languages/Bash/Bash Scripting.md",
+    "Security/Tools/Hydra.md"
+  ]
+}

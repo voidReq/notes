@@ -1,0 +1,179 @@
+{
+  "main": {
+    "id": "ace55344c46e8c65",
+    "type": "split",
+    "children": [
+      {
+        "id": "416fe318ba880355",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac32a8aca5b38de5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bash/Bash Scripting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "26128ab9f7aebe14",
+    "type": "split",
+    "children": [
+      {
+        "id": "b80ad77912157749",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a4987e495c926b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3f81d7c646a09eed",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a33c8586d48b25cf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "cb7389958797e2c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "88c5706d2cff8175",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d70657edc52cc951",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Bash/Bash Scripting.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "579cc81fadb3594e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Bash/Bash Scripting.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c08fc69089ca8b58",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "44a4e04ae5a18e96",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Bash/Bash Scripting.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ac32a8aca5b38de5",
+  "lastOpenFiles": [
+    "Bash/Bash.md",
+    "Bash/Bash Scripting.md",
+    "C/C Memory.md",
+    "C/C Memory Diagram.png",
+    "C/C Operators.md",
+    "C/C Randomization.md",
+    "C/C Structs.md",
+    "C/C Typedef.md",
+    "C/C Formatting.md",
+    "C/C File Manipulation.md",
+    "C/C Enums.md",
+    "C/C Common Funcs.md",
+    "C/C Bitwise Operators.md",
+    "C/C.md",
+    "C/C stack.png",
+    "C/C Vars.md",
+    "Everything.md",
+    "Pasted image 20240428210130.png",
+    "C/C Funcs.md",
+    "Untitled.canvas",
+    "Java/Java.md",
+    "Bash",
+    "Welcome.md",
+    "Java",
+    "Java/Java examples.md",
+    "Java/Java basics.md",
+    "C"
+  ]
+}

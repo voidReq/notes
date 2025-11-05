@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "ec2aaa817e743944",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b52c0de560c204e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4a7331e4f62ba89b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Methods/Methods.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Methods"
+            }
+          },
+          {
+            "id": "d425db5f2b898e87",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OSINT/Emails.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Emails"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b889fc48464f0ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff073f8e28238e0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6de786df3315c02a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "38b889b04d12b4d0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a9b668511b011909",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d25a4ffce5b82050",
+    "type": "split",
+    "children": [
+      {
+        "id": "b657da87d98503ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ddd660f7f94302f2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "980453085d4a9882",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "2673e4120f72f531",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f0add3a305259653",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d425db5f2b898e87",
+  "lastOpenFiles": [
+    "OSINT/Website footprinting.md",
+    "OSINT/Social Engineering.md",
+    "OSINT/OSINT Sources.md",
+    "OSINT/OSINT.md",
+    "OSINT/MOSINT.md",
+    "OSINT/Google Dorking.png",
+    "OSINT/General OSINT.md",
+    "Methods/XSS.md",
+    "OSINT/Emails.md",
+    "Antivirus Evasion.md",
+    "Methods/Methods.md",
+    "Methods/SQL Injection.md",
+    "Tools/John the Ripper.md",
+    "Everything.md",
+    "Tools/Hashcat.md",
+    "Tools/Hydra.md",
+    "Tools/Aircrack-ng.md",
+    "a.md",
+    "Tools/NMAP.md",
+    "General/General.md",
+    "General/Basic CMDs.md",
+    "To do/To do.md",
+    "To do/List.md",
+    "General",
+    "Tools/Tools.md",
+    "Welcome.md",
+    "Methods",
+    "Tools/SQLMap.md",
+    "Tools",
+    "To do",
+    "OSINT"
+  ]
+}

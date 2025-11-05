@@ -1,0 +1,6 @@
+[[Aircrack-ng]]
+[[John the Ripper]]
+[[Hydra]]
+[[NMAP]]
+[[SQLMap]]
+[[Hashcat]]
