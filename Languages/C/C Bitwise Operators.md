@@ -4,7 +4,7 @@
 << left shift
 ">>" right shift
 
-```
+```C
 int x = 6; // 00000110
 int y = 12; // 00001100
 int z = 0; // 00000000

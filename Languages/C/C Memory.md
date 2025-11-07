@@ -3,7 +3,7 @@ Memory: Array of bytes in RAM
 Memory block: A unit that holds the value
 Memory address: Address of where the memory block is
 
-```
+```C
 char a = 'x'; 
 // 1 byte
 // a stores the VALUE

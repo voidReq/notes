@@ -1,3 +1,3 @@
 Function prototypes:
-	Declare at beginning of file, without contents
-	`{returnType} {name}({args});`
+- Declare at beginning of file, without contents
+- `{returnType} {name}({args});`
