@@ -1,10 +1,9 @@
 [[C Vars]]
-Specify decimal/character places:
-- `%{charNum}{type}`
-- `%2lf //prints to 2 characters'
-- To specify decimal places, simply add a period
-- `%.2lf`
-
+- Specify decimal/character places:
+	- `%{charNum}{type}`
+	- `%2lf //prints to 2 characters'
+	- To specify decimal places, simply add a period
+	- `%.2lf`
 
 | %c   | a single character                                 |                                                                                        |
 | ---- | -------------------------------------------------- | -------------------------------------------------------------------------------------- |

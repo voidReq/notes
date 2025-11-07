@@ -1,7 +1,7 @@
-Declare using:
-- {dataType} {varName}
-Can assign by using "=" followed by a value
-"#define" creates a text substitution (no type, just replaces raw txt):
+- Declare using:
+	- {dataType} {varName}
+- Can assign by using "=" followed by a value
+- "#define" creates a text substitution (no type, just replaces raw txt):
 ```C
 	#include <stdio.h> 
 	// Defining macros with constant value 
@@ -21,11 +21,10 @@ Can assign by using "=" followed by a value
 		return 0; 
 	}
 ```
-
-const creates a constant:
-- const int Thing = 4;
-- //can't be changed
-- //naming conventions use capital letters to start const name
+- const creates a constant:
+	- const int Thing = 4;
+	- //can't be changed
+	- //naming conventions use capital letters to start const name
 
 | Data Type                  | Size (bytes) | Format Specifier |
 | -------------------------- | ------------ | ---------------- |

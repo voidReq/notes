@@ -1,4 +1,4 @@
-Write to a file:
+- Write to a file:
 ```C
 	FILE *pF = fopen("test.txt", "w"); //Pointer to a file
 	// Use "a" to append
@@ -7,7 +7,7 @@ Write to a file:
 	fprintf(pF, "Thing to add to file"); //Overwrites anything
 	fclose(pF);
 ```
-Delete a file:
+- Delete a file:
 ```C
 	if(remove("test.txt) == 0){
 		printf("Success!");
@@ -16,7 +16,7 @@ Delete a file:
 	printf("Failure");
 	}
 ```
-Read a file:
+- Read a file:
 ```C
 	FILE *pF = fopen("poem.txt", "r");
 	char buffer[255]; Holds 1 line at a time, max 255 bytes

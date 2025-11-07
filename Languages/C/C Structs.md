@@ -1,9 +1,9 @@
-Collection of related vars, of varying types
-In one name in one block of memory
-Classes, but without methods
+- Collection of related vars, of varying types
+- In one name in one block of memory
+- Classes, but without methods
 
-`struct Name{}`
-Capitalize name
+- `struct Name{}`
+- Capitalize name
 
 ```C
 struct Player{
@@ -23,7 +23,7 @@ player1.score = 3;
 
 ```
 
-To make an array of structs
+- To make an array of structs
 ```C
 struct Student{
 char name[12];
