@@ -3,23 +3,23 @@
 - Can assign by using "=" followed by a value
 - "#define" creates a text substitution (no type, just replaces raw txt):
 ```C
-	#include <stdio.h> 
-	// Defining macros with constant value 
-	#define PI 3.14159265359 
-	
-	int main() 
-	{ 
-	
-		int radius = 21; 
-		int area; 
-	
-		// Using macros to calculate area of circle 
-		area = PI * radius * radius; 
-	
-		printf("Area of Circle of radius %d: %d", radius, area); 
-	
-		return 0; 
-	}
+#include <stdio.h> 
+// Defining macros with constant value 
+#define PI 3.14159265359 
+
+int main() 
+{ 
+
+	int radius = 21; 
+	int area; 
+
+	// Using macros to calculate area of circle 
+	area = PI * radius * radius; 
+
+	printf("Area of Circle of radius %d: %d", radius, area); 
+
+	return 0; 
+}
 ```
 - const creates a constant:
 	- const int Thing = 4;

@@ -27,40 +27,40 @@ short b[3]; //This NOW takes 6 bytes
 
 - `*` is the indirection operator, the value at an address
 ```C
-	int x, y;
-	int *px;
-	px = &x;
-	y = *px;
-	//is equivalent to
-	y=x;
+int x, y;
+int *px;
+px = &x;
+y = *px;
+//is equivalent to
+y=x;
 ```
 
 - Make sure data type of pointer is consistent with type of variable!
 ```C
-	int age = 21;
-	printf("Address: %p", &age); //Prints the address
-	printf("Value: %d", age); //24
-	
-	//We can store the address in a pointer, like so
-	
-	int *pAge = &age; //Putting "p" after "*" is just a convention
-	//Creates a pointer named pAge, 
-	//that stores the memory address of an int named &age
-	
-	printf("Value of pAge: %p, pAge); //Prints the address
-	printf("Value at pAge address: %d:", *pAge); //24
+int age = 21;
+printf("Address: %p", &age); //Prints the address
+printf("Value: %d", age); //24
+
+//We can store the address in a pointer, like so
+
+int *pAge = &age; //Putting "p" after "*" is just a convention
+//Creates a pointer named pAge, 
+//that stores the memory address of an int named &age
+
+printf("Value of pAge: %p, pAge); //Prints the address
+printf("Value at pAge address: %d:", *pAge); //24
 ```
 
 ```C
-	void printAge(int *age){
-		printf("You are %d years old\n", *pAge); //21
-	}
-	int main(){
-		int age = 21;
-		int *pAge = &age;
-		
-		printAge(pAge)
-	}
+void printAge(int *age){
+	printf("You are %d years old\n", *pAge); //21
+}
+int main(){
+	int age = 21;
+	int *pAge = &age;
+	
+	printAge(pAge)
+}
 ```
 
 - If you are declaring a pointer but NOT assigning a value yet, assign to NULL
@@ -72,12 +72,12 @@ pAge = &age;
 
 - When you're directing to the first element of an array:
 ```C
-	//Where pa is a ptr and a is an array
-	pa = &a[0];
-	//is also
-	pa = a
-	//Note that array names are CONSTANTS, not variables.
-	//You CAN't do a=pa, or p=&a
+//Where pa is a ptr and a is an array
+pa = &a[0];
+//is also
+pa = a
+//Note that array names are CONSTANTS, not variables.
+//You CAN't do a=pa, or p=&a
 ```
 
 - Arrays/Pointers:

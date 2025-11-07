@@ -1,44 +1,44 @@
 ### INPUT
 - getchar() collects user input, reading a single character:
 ```C
-	#include <stdio.h>
-	
-	// Driver code
-	int main()
-	{
-		int character;
-		character = getchar();
-	
-		printf("The entered character is : %c", character);
-		return 0;
-	}
+#include <stdio.h>
+
+// Driver code
+int main()
+{
+	int character;
+	character = getchar();
+
+	printf("The entered character is : %c", character);
+	return 0;
+}
 ```
 - putchar() prints the single character:
 ```C
-	#include <stdio.h>
-	
-	// Driver code
-	int main()
-	{
-		int character;
-		printf("Enter any random character between a-z: ");
-		character = getchar();
-	
-		printf("The entered character is : ");
-		putchar(character);
-		return 0;
-	}
+#include <stdio.h>
+
+// Driver code
+int main()
+{
+	int character;
+	printf("Enter any random character between a-z: ");
+	character = getchar();
+
+	printf("The entered character is : ");
+	putchar(character);
+	return 0;
+}
 ```
 - scanf() collects user input, type can be specified:
 ```C
-	scanf("{varType}", &{varNameToStore})
-	//& represents the address of the variable
-	//varType should be replaced by representatives (e.g., %d)
-	//ONLY READS UP TO WHITESPACES
+scanf("{varType}", &{varNameToStore})
+//& represents the address of the variable
+//varType should be replaced by representatives (e.g., %d)
+//ONLY READS UP TO WHITESPACES
 ```
 - fgets() collects user input, PAST whitespaces:
 ```C
-	fgets({varNameToStore}, {byteSize}, stdin})
+fgets({varNameToStore}, {byteSize}, stdin})
 ```
 
 ### STRINGS
