@@ -1,0 +1,38 @@
+- CPU
+	- ALU: Performs operations (arithmetic/logical)
+	- CU: Decodes instructions
+	- Registers: Fastest storage locations
+- RAM
+	- Store instructions/data
+	- Byte addressable
+	- Volatile
+- I/O
+	- External communication
+- Bus system
+	- Data bus: transfers data
+	- Address buss: Carries memory addresses
+	- Control buss: Control signals (r/w/x, etc.)
+
+- Registers: Temporary data during computation
+	- General purpose:
+		- Store data
+	- Program counter/Instruction pointer:
+		- Store address of next instruct to execute
+	- Stack pointer:
+		- Points to top of stack
+	- Status/Flags Register:
+		- Condition codes (0, carry, overflow, etc)
+
+- Instruction Cycle
+	- Fetch:
+		- Reads instruction using instruction pointer
+		- Instruction loaded into instruction register
+		- Instruction pointer incremented
+	- Decode:
+		- CU decides on an operation to perform
+		- CU decides which registers/memory locations in use
+	- Execute:
+		- ALU executes
+		- Results stored in destination
+		- Flags updated
+- Processors access one byte at a time
