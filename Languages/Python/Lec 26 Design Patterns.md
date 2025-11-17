@@ -1,0 +1,22 @@
+- Lists
+	- Accumulator pattern (add up a sequence of items)
+	- Data handling
+		- Mapping, filtering, merging DFs
+- Design patterns:
+	- Independent of programming language
+	- Flexible/Easily modifiable
+	- Provide a common vocab to communicate "blueprints"
+- Data pull:
+	- consumer knows about producer
+	- Producer has method consumer can call
+	- Consumer asks producer for data
+- Observer pattern:
+	- Producer provides notification when data changes
+	- AKA Listener pattern, publish-subscribe (MQTT!)
+	- Subject (observee) keeps list of who to notify
+		- New object subscribes
+- Distance must be defined per design pattern
+	- Euclidean
+	- Number of minutes it takes to travel
+	- Cost of travel
+	- Proportion of travelers 

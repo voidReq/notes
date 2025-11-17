@@ -1,4 +1,19 @@
-`MOV`: Reads a value into a register
-`ADD`: Adds a register to another register
-`SUB`: Subtracts a register from another
-`LEA`: Reads a computed address into a register
+- `MOV`: Reads a value into a register (copies)
+	- `MOV AL, 0xFF`
+- `ADD`: Adds a register to another register
+	- Affects: ZF, CF, SF, OF, PF
+	- `MOV RAX, 10`
+	- `ADD RAX, 5    ; RAX = 15`
+	- `ADD RAX, RBX    ; RAX = RAX + RBX`
+	- `ADD RAX, [0x1000]    ; RAX = RAX + val at 0x1000`
+- `SUB`: Subtracts a register from another
+	- Affects: ZF, CF, SF, OF, PF
+- `LEA`: Reads a computed address into a register
+	- `LEA RAX, [RBX + 8]    ; RAX = RBX + 8`
+		- Calculates address
+	- `LEA RAX, [RBX + RCX*4]    ; RAX = RBX + RCX*4`
+- `INC/DEC`: Increments & decrements
+	- Doesn't affect CF
+	- `MOV RAX, 5`
+	- `INC RAX    ; RAX = 6`
+	- `DEC RAX    ; RAX = 5`

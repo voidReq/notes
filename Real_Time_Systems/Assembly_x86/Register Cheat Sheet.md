@@ -1,0 +1,101 @@
+- Traditional uses are conventions (except RSP, keep that as the stack pointer)
+- "AH" means high byte (bits 8-15) of AX, "AL" is low byte (bits 0-7)
+- In 64-bit mode, operations on 32-bit registers zero the upper 32 bits
+# General Purpose
+### The Original 8 Registers (from 8086/80386 era)
+- RAX - Accumulator Register
+    - 64-bit: RAX
+    - 32-bit: EAX (lower 32 bits)
+    - 16-bit: AX (lower 16 bits)
+    - 8-bit low: AL (bits 0-7)
+    - 8-bit high: AH (bits 8-15)
+    - Traditional use: Arithmetic operations, function return values
+- RBX - Base Register
+    - 64-bit: RBX
+    - 32-bit: EBX
+    - 16-bit: BX
+    - 8-bit low: BL
+    - 8-bit high: BH
+    - Traditional use: Base pointer for memory access
+- RCX - Counter Register
+    - 64-bit: RCX
+    - 32-bit: ECX
+    - 16-bit: CX
+    - 8-bit low: CL
+    - 8-bit high: CH
+    - Traditional use: Loop counters, shift/rotate counts
+- RDX - Data Register
+    - 64-bit: RDX
+    - 32-bit: EDX
+    - 16-bit: DX
+    - 8-bit low: DL
+    - 8-bit high: DH
+    - Traditional use: I/O operations, extended arithmetic (with RAX for multiplication/division)
+- RSI - Source Index
+    - 64-bit: RSI
+    - 32-bit: ESI
+    - 16-bit: SI
+    - 8-bit low: SIL (no high byte variant)
+    - Traditional use: Source pointer for string/memory operations
+- RDI - Destination Index
+    - 64-bit: RDI
+    - 32-bit: EDI
+    - 16-bit: DI
+    - 8-bit low: DIL (no high byte variant)
+    - Traditional use: Destination pointer for string/memory operations
+- RBP - Base Pointer
+    - 64-bit: RBP
+    - 32-bit: EBP
+    - 16-bit: BP
+    - 8-bit low: BPL (no high byte variant)
+    - Traditional use: Base of the current stack frame
+- RSP - Stack Pointer
+    - 64-bit: RSP
+    - 32-bit: ESP
+    - 16-bit: SP
+    - 8-bit low: SPL (no high byte variant)
+    - Traditional use: Points to the top of the stack (DON'T misuse this one!)
+
+### The 8 New Registers (added in x86-64)
+- R8 through R15
+- These follow a simpler naming pattern:
+- R8:
+    - 64-bit: R8
+    - 32-bit: R8D
+    - 16-bit: R8W
+    - 8-bit: R8B
+- R9:
+    - 64-bit: R9
+    - 32-bit: R9D
+    - 16-bit: R9W
+    - 8-bit: R9B
+- R10, R11, R12, R13, R14, R15: Same pattern - just replace the number
+    - 64-bit: R10, R11, R12, R13, R14, R15
+    - 32-bit: R10D, R11D, R12D, R13D, R14D, R15D
+    - 16-bit: R10W, R11W, R12W, R13W, R14W, R15W
+    - 8-bit: R10B, R11B, R12B, R13B, R14B, R15B
+Note: R8-R15 don't have the "high byte" variants (no R8H, R9H, etc.)
+
+# Special Purpose
+- RIP:
+	- Instruction Pointer
+	- Has address of next instruction to execute
+- RFLAGS
+	- Flags register
+	- Status flags (zero, carry, overflow, etc.)
+	- FLAGS:
+		- ZF
+			- Zero Flag
+			- Result is a zero
+		- CF
+			- Carry Flag
+			- Unsigned overflow/borrow
+		- SF
+			- Sign Flag
+			- Result is negative
+		- OF
+			- Overflow Flag
+			- Signed overflow
+		- PF
+			- Parity Flag
+			- Even number of 1 bits in result
