@@ -1,0 +1,31 @@
+- Performance can be measured through E2E delay, packet loss, throughput
+- As packets come into a router link, they're put into a buffer/queue
+	- With a larger buffer, the end to end communication would slow down
+	- If the buffer is too small, there will be a rapid buffer overflow
+		- Data loss
+- Arrival rate > link capacity -> q delay & drops
+
+- E2E delay factors:
+	- Nodal processing
+		- Time device takes to analyze packet (check bit errors, determine output link, etc)
+	- Queuing delay
+		- R = link bandwidth
+		- L = packet length
+		- a = average packet arrival rate (pkts/sec)
+		- LA (BPS) average bits arrival rate
+		- Traffic intensity = La/r
+		- Time waiting at output for transmission
+		- Depends on congestion level of router
+	- Transmission delay
+		- L = packet length
+		- R = link transmission rate
+		- Transmission delay = L/R
+	- Propagation delay
+		- d: length of physical length
+		- s: propagation speed (~2E8 m/sec)
+		- Propagation delay: d/s
+- Throughput
+	- Rate (bits/time unit) at which bits are transferred
+	- Can be instantaneous or average (i.e., rate)
+	- Effective throughput: Useful data (not metadata, headers, etc.) transferred per unit time
+	- Limited by bottleneck link: the link constraining E2E throughput (link w/ lowest capacity)

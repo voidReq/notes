@@ -8,17 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fc2dd0e04e760d08",
+            "id": "6e8f204e75879716",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Security/Methods/Cross-Site Request Forgery.md",
+                "file": "Computer Networking/The Web.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Cross-Site Request Forgery"
+              "title": "The Web"
+            }
+          },
+          {
+            "id": "8feac5c24624945e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Networking/Performance basics.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Performance basics"
             }
           }
         ]
@@ -53,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cac",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "fd1a3b6deab23c4d",
@@ -166,14 +180,39 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fc2dd0e04e760d08",
+  "active": "6e8f204e75879716",
   "lastOpenFiles": [
-    "Languages/C/C Bitwise Operators.md",
-    "Security/Methods/Cross-Site Request Forgery.md",
-    "Languages/Bash/Bash Scripting.md",
-    "Security/Tools/Hydra.md"
+    "Computer Networking/Application Layer.md",
+    "Computer Networking/The Web.md",
+    "Computer Networking/Performance basics.md",
+    "Computer Networking/Internet Protocol Stack.md",
+    "Databases/Class.md",
+    "Computer Networking/Basics of networking, TCP & UDP.md",
+    "Security/General/My personal phases.md",
+    "Real_Time_Systems/START HERE.md",
+    "Security/Methods/SQL Injection.md",
+    "Real_Time_Systems/C/Real Time C.md",
+    "Real_Time_Systems/Assembly_x86/Memory Hierarchy and Organization.md",
+    "Languages/Python/Lec 23 More Design Patterns and Decorators.md",
+    "Languages/Python/Lec 23 Design Patterns.md",
+    "Real_Time_Systems/Assembly_x86/Von Neumann Architecture.md",
+    "Real_Time_Systems/Assembly_x86/Register Cheat Sheet.md",
+    "Real_Time_Systems/Assembly_x86/Endianness.md",
+    "Languages/Python/Lec 22 UnionFind & Min Spanning Trees & Priority Queues.md",
+    "Languages/Python/Lec 18 Protocols.md",
+    "Real_Time_Systems/Assembly_x86/Command Cheat Sheet.md",
+    "Real_Time_Systems/Assembly_x86/Syntax Basics.md",
+    "Real_Time_Systems/Assembly_x86/Assembly_x86.md",
+    "Languages/Python/Lec 21 Graphs.md",
+    "Real_Time_Systems/Assembly_x86",
+    "Languages/Python/Lec 20 Trees.md",
+    "Languages/C/C Vars.md",
+    "Languages/C/C Typedef.md",
+    "Languages/C/C Structs.md",
+    "Languages/C/C Memory Diagram.png"
   ]
 }
