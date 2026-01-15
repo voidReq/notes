@@ -1,0 +1,26 @@
+- Schema is structure of relatable DBs
+- Keys in a given relation are not duplicated
+- DBs should be:
+	- Organized
+	- Secure
+	- Reliable
+	- Consistent
+	- Efficient
+	- Standardized
+	- Language independent
+- They have:
+	- Rows
+	- Tables
+	- Relations
+	- Keys
+	- Columns
+	- Indexes
+- They're handled with: DMLs and DDL
+- Each table has a name that starts with a capital letter
+- Attribute names start with lowercase letters
+- Each attribute has a domain
+- We write primary keys with
+	- `nameOfTable_id`
+	- Table name should be lowercase
+- Rows ought to be unique
+- With foreign keys (the primary key of another table), use the same ID
