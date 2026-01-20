@@ -7,4 +7,8 @@
 - Explore the website
 - Toss around some basic inputs: `"><script>alert(1)</script>`, ` " OR '1'=='1'`, `!@#$%^&*()<>\/"`, etc.
 	- No need for extensive testing! That'll come later
-	- 
+- Monitor the requests to build out your sitemap, while you're wandering
+- Take note of anything interesting
+
+# Stage 3: to-be-written
+I'll write this. Hopefully.

@@ -1,0 +1,2 @@
+- Boyd-Codd Normal Form (BCNF) is a DB design seeking to eliminate redundancy
+- 

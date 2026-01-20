@@ -1,0 +1,1 @@
+I was not self taught in databases. Although I came in with some basic knowledge, these notes are from a databases course in university.

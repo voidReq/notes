@@ -1,5 +1,4 @@
-- Schema is structure of relatable DBs
-- Keys in a given relation are not duplicated
+### Aspects of DBs
 - DBs should be:
 	- Organized
 	- Secure

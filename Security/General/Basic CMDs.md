@@ -1,4 +1,3 @@
-#arp #basics #cd #chmod #cp #echo #ifconfig #ip #iwconfig #kali #locate #mkdir #mousepad #nano #navigation #passwd #rm #route #terminal #usage -----------------Navigation
 **pwd: Show current directory**
 -pwd
 **rm: Remove directory (or file)**

@@ -1,0 +1,33 @@
+- When designing software for customers, there needs to exist an agreement on what it does
+- SRS (Software Requirements Specification)
+	- Structured collection of requirements
+	- Agreement between customer and supplier
+	- Specifies user needs, bridges gaps in communication between stakeholders, provides reference for validation of delivered software
+- Requirements elicitation
+	- Acquirer and suppliers of a system discover, review, articulate, etc. requirements and details of system
+	- Can't be automated, reliant on human communication
+- Functional requirements
+	- Observable behaviours the software should provide
+	- Policies to be enforced, processes to be carried out
+- Non-functional requirements
+	- Constrained technologies to be used in implementation
+	- What platforms, database engines
+	- How quickly should results arrive, safety & security constrains, accessibility
+- Well formed requirement
+	- Should contain a number for quick reference
+	- Can be verified
+	- Solves stakeholder problem/achieves stakeholder objective
+	- Qualified by measurable conditions, bounded by constrains
+	- Defines performance of a system
+	- `When the signal x is received [condit], the system [subject] shall set [action] to the signal x received bit [object[ within 2 seconds [constraint]`
+- Characteristics of requirements
+	- Necessary (if it is removed, a deficiency will exist)
+	- Appropriate (avoid unnecessary code/implementations)
+	- Unambiguous (explicit)
+	- Consistent (free of conflicts with other requirements)
+	- Complete (needs no further explanation)
+	- Singular (states only one requirement)
+	- Feasible (even though you're surely a brilliant programmer)
+	- Traceable (each part of software should be traceable to a requirement)
+	- Verifiable (there must exist means to prove the requirement is implemented)
+	- Ranked for importance/stability (prioritizing is important, reduces risks of changing requirements)

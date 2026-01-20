@@ -1,4 +1,0 @@
-- In person only
-- one free pass
-- Don't wait before deadline to start working on projects
-- Read rubric and details long before submitting
