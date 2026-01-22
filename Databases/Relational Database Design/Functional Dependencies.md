@@ -31,3 +31,19 @@
 - Enforcing lossless decomposition
 	- Proper use of primary keys
 	- Use of foreign keys
+
+
+### Armstrong's axioms + more:
+- Used to determine F+, the closure of a set of functional dependencies (F)
+- Reflexivity:
+	- If a is a set of attributes and b subsets a, then a->b
+- Augmentation:
+	- If a->b and y is a set of attributes, then ya->yb
+- Transivity:
+	- if a->b and b->y, a->y
+- Union:
+	- If a->b and a->y, a->by
+- Decomposition:
+	- If a->by, then a->b and a->y
+- Pseudotransivity:
+	- If a->b and yb->S, ay->S
