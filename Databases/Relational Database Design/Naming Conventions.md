@@ -1,0 +1,2 @@
+- Tables: Uppercase
+- Primary keys: `{tableLowercase}_id`

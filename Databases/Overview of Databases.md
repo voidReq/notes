@@ -20,6 +20,7 @@
 - Each attribute has a domain
 - We write primary keys with
 	- `nameOfTable_id`
+		- Note that table names are lowercase in primary keys
 	- Table name should be lowercase
 - Rows ought to be unique
 - With foreign keys (the primary key of another table), use the same ID
