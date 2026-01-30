@@ -30,6 +30,19 @@
 	- Given "Team" and "Player" tables:
 	- `Team` <- plays, 0..* `Player`
 - Can have aggregations, compositions, generalizations
+- Generalization: 
+	- Inherit from parent and add attributes
+	- One parent class can have multiple subclasses
+		- subclass should have a new attribute
+- Composition:
+	- Two entities
+	- Remove one, other doesn't exist
+	- Post, Comments
+		- Remove post -> comments don't exist
+- Aggregation:
+	- Two entities, one of them is a sub
+	- If we remove the parent, the sub still exists
+	- e.g., we have photo albums which hold photos. if we delete the albums, the photos will still exist.
 
 ### Logical Model
 - Relational: ERD (crow's foot)
