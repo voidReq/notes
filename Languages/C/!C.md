@@ -1,5 +1,5 @@
 # Quick notes
-Alongside what can be seen in this folder, more of my notes on C (more in-depth and related to real time system development) can be found here: [[Real Time C|Real Time C]]
+Alongside what can be seen in this folder, more of my notes on C (more in-depth and related to real time system development) can be found here: [[!Real Time C|Real Time C]]
 
 Based partially on: https://www.cc4e.com
 Password is the meaning of life, the universe, and everything

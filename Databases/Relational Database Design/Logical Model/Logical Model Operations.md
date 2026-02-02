@@ -1,0 +1,27 @@
+- In relation databases, attribute values must be atomic
+- Select
+	- o_p(r)
+	- p is the selection predicate
+		- Can use =, =/, >, >=, <, <=
+	- Ex: Select the tuples of the relation where the instructor is in the physics department
+		- o_(dept_name)="Physics"^(instructor)
+- Unary operator (project)
+	- Symbol is like a Vertical rectangle w/ no bottom
+	- Parameters are attributes
+	- Gets only the attributes asked for 
+- Cartesian product (x) combines info from two relations
+	- Constructs a tuple out of result w/ every possible combo
+- Composition
+- Join
+	- Cartesian product between two tables w/ foreign key in both
+	- Select to make sure foreign key = primary key
+- Union
+	- Can join two selects
+		- Both must have same number of attributes
+		- Must have compatible domains
+- Set difference (minus symbol)
+- Rename:
+	- p_x
+- Many queries can be written in different ways
+- Filter first, join later
+	- Reduces compute power/time complexity

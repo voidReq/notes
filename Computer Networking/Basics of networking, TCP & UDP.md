@@ -34,11 +34,12 @@
 	- Packets can be in wrong order, not arrive, invalid, etc.
 	- Media transfer, audio/video streaming, etc.
 
-### TCP Traffic issue remediation
+### [[TCP]] Traffic issue remediation
 - Flow control (prevention)
 	- Checking for buffer space consistently (capacity)
 - Congestion control (reaction)
 	- Mechanism to react to current happenings
+
 
 ```
 ----------------------------------------------------

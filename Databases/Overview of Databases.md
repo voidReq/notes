@@ -24,3 +24,5 @@
 	- Table name should be lowercase
 - Rows ought to be unique
 - With foreign keys (the primary key of another table), use the same ID
+- CRUD: Create, Read, Update, Delete
+	- Operations for a persistent storage application

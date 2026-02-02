@@ -1,0 +1,3 @@
+- We'll use crows-foot
+	- No directionality
+	- 
