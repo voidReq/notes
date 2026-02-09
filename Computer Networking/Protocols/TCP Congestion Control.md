@@ -59,7 +59,7 @@
 ```
 Assumimng ssthreshold = 4 segments
 MSS = 800 B
-receivere doesn't wait 500ms
+Receiver doesn't wait 500ms
 No cumulative ACK
 
 
