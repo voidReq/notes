@@ -1,17 +1,3 @@
-- Layer 2
-- Basic functions to move frames from one node to adjacent nodes over single communication link
-### Services:
-- Framing: determining where frame begins/ends
-- Flow control
-- Error control: detection/correction
-- Reliable delivery: for links with high error rates
-- Medium Access Control (MAC): rules to transmit a frame
-### Implementation
-- DL Layer implemented in *every* host and network device
-- Mostly on a NIC (network interface card) on a chip
-- Partially implemented in software, running on host's CPU
-- Different links implement different link protocols
-### Error detection (EDC+D)
 - Error correction and detection bits: EDC
 - Data protected by error checking, may include header fields
 - Not 100% reliability, but pretty consistent
@@ -45,3 +31,4 @@
 		- D||R divisible by G, modulo 2
 		- Receiver knows G, divides D||R by G
 		- If non-zero remainder -> error!
+- Basically, we use redundant bits to verify that data is correct
