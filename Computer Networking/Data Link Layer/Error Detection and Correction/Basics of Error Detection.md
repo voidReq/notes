@@ -7,7 +7,6 @@
 	- Checksum
 	- Cyclic Redundancy Check (CRC)
 		- Also called Frame Check Sequence (FCS)
-
 - **Parity checking (1)** 
 	- Single bit parity
 		- Detects single-bit errors (any odd num of bits)
@@ -17,7 +16,6 @@
 		- Detects, corrects single bit errors
 		- Detects AND corrects single-bit errors
 		- Detects, doesn't correct most multi-bit
-
 **Checksum (2)**
 - Pretty straightforward
 

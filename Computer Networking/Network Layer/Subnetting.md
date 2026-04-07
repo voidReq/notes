@@ -2,7 +2,6 @@
 - Interface: connection between host/router and physical link
 - Subnet: Device interfaces that can physically reach eachother without passing through an intervening router
 - IP addresses: 32-bit identifier with a subnet part and a host part
-
 - Given: 223.1.1.1:
 	- the last 3 bits are free for internal IPs
 - Given: 223.1.1.0/24, humans can interpret this as 24 bits are dedicated to the subnet

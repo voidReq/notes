@@ -4,7 +4,6 @@
 	- ARQ (Automatic Repeat Request) vs. FEC (Forward Error Correction)
 	- None of these in ethernet
 
-
 ### ARQ vs FEC vs Ethernet/High-Speed Ethernet
 - ARQ
 	- Relies heavily on error detection
@@ -45,7 +44,6 @@
 		- Collision detected, NIC chooses k at random: k ∈ { 0... (2^m) - 1}
 		- NIC waits `k*512` bit times, returns to step 2
 3) If entire frame sent without detecting another transmission, NIC done with frame
-
 - **Exponential collision**	
 	- FIRST COLLISION
 		- m = min(n, 10)
