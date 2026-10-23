@@ -4,7 +4,7 @@
 	- Could be an iframe with a form inside it, and the form is executed as soon as the site loads
 - For instance, let's say xyz site has a button:
 ```html
-<form method="POST" action="https://goonsite.org/do_action">
+<form method="POST" action="https://example.com/do_action">
 	<input type="text" name="msg" value="val">
 	<input type="submit" value="Submit">
 </form>
@@ -12,7 +12,7 @@
 - it will make a request like so:
 ```
 POST /do_action
-Host: goonsite.org
+Host: example.com
 Cookie: cookie=%insert_a_cookie%
 
 (POST request body)
@@ -46,9 +46,9 @@ content="val"
 		```
 	- Can try to include victim's name in the request
 		- As a subdomain
-			- `Referer: goonsite.org.attacker.com`
+			- `Referer: example.com.attacker.com`
 		- As a page
-			- `Referer: attacker.com/goonsite.org`
+			- `Referer: attacker.com/example.com`
 - XSS can also act as a vector toward bypassing CSRF protections, by stealing the CSRF token and allowing crafting of forged requests
 # OTHER
 - 
